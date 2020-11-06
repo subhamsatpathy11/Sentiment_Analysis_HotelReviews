@@ -46,7 +46,7 @@ Here we will be loading the model into a pickle file, for working with some upco
 # Prediction of Sentiments
 Here we take reviews as user input and predict the sentiment in form of positive and negative. In this section we followed the same procedure as before which goes as follows.
 
-![Alt text](Relative/Pictures/predict.jpg?raw=true "Title")
+![](Images/predict.jpg)
 
 # Conclusion
 In this project we worked on a hotel review dataset, taking the reviews into account we filtered the values to avoid unnecessary values that may occur in the text reviews. We then splitted our dataset into train and test datasets, followingly we basically used two classification methods of naive bayes (GaussianNB and MultinomialNB), comparing which we found that MultinomialNB is giving a better score of 76.5%. We used MultinomialNB classifier for prediction with the test data. Finally, we performed statistical significance test using accuracy score and confusion matrix to check whether the results are statistically significant or not.
